@@ -1,0 +1,35 @@
+.mainNav{
+    display: flex;
+   position: sticky;
+    justify-content: space-between;
+    background-color: transparent;
+    color: white;
+    z-index: 10;
+}
+
+.navRight{
+   
+    display: flex;
+    align-items: center;
+    
+}
+.navRightUl{
+    display: flex;
+    list-style: none;
+
+}
+.navRightUl > li{
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.navLeft{
+    font-weight: 700;
+    margin-left: 20px;
+    
+}
+
+.navLeftSpan{
+    color: orangered;
+}
